@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="jobSearch.css">
+</head>
+<body>
+  <header>
+    <h1>Job Search</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="search-section">
+        <div class="input-group">
+          <label for="jobTitle">Job Title:</label>
+          <input type="text" id="jobTitle" placeholder="Enter job title">
+        </div>
+        <div class="input-group">
+          <label for="jobLocation">Location:</label>
+          <input type="text" id="jobLocation" placeholder="Enter location">
+        </div>
+        <div class="button-group">
+          <button id="searchButton">Search</button>
+          <button id="clearButton" class="clear-btn">Clear</button>
+        </div>
+      </div>
+      <div class="results">
+        <h2>Search Results:</h2>
+        <ul id="resultsList"></ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>2024 Job Search Platform. Designed .</p>
+  </footer>
+  <script src="jobSearch.js"></script>
+</body>
+</html>
